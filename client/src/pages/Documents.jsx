@@ -166,7 +166,7 @@ const Documents = () => {
                   </td>
                   <td className="px-6 py-4">
                     <a
-                      href={`http://localhost:5001/${doc.fileUrl}`}
+                      href={`${import.meta.env.VITE_API_URL}/${doc.fileUrl}`}
                       target="_blank"
                       rel="noreferrer"
                       className="text-blue-600 hover:text-blue-800 mr-3"
